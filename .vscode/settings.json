@@ -1,0 +1,26 @@
+{
+    // Enable language server features for Jupyter notebooks
+    "jupyter.enableLanguageServer": true,
+    "jupyter.languageServer": "Pylance",
+    // Python language server settings
+    "python.languageServer": "None",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.completeFunctionParens": true,
+    // Enable hover information
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.stubPath": "${workspaceFolder}/venv/lib/python3.12/site-packages",
+    // Jupyter-specific settings
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    // Enable IntelliSense in notebooks
+    "notebook.experimental.output.textLineLimit": 1000,
+    // Python path
+    "python.defaultInterpreterPath": "${workspaceFolder}/venv/bin/python",
+    // Jupyter kernel settings
+    "jupyter.kernels.filter": [],
+    "notebook.kernelProviderAssociations": []
+}
